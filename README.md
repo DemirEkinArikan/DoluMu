@@ -15,7 +15,8 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 * **Python**: Projenin temel programlama dili.
 * **YOLOv5**: İnsan tespiti için kullanılan nesne algılama modeli.
 * **OpenCV**: Görüntü işleme ve video analizi için kullanıldı.
-* **Tkinter**: Kullanıcı arayüzü oluşturmak için kullanılan GUI kütüphanesi.
+* **Tkinter(Windows için)**: Kullanıcı arayüzü oluşturmak için kullanılan GUI kütüphanesi.
+* **PySide6(Macos içi)**: Python programlama dili için Qt toolkit kullanılarak modern ve güçlü GUI (grafik kullanıcı arayüzü) uygulamaları geliştirmek için kullanılan bir kütüphane.
 * **Matplotlib**: Grafik ve veri görselleştirme için kullanıldı.
 
 #### Kurulum
