@@ -54,5 +54,4 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
     ```bash
     python app.py
     ```
-3. **İzlenecek Alanı Çizin**: Her video için izlenecek alanı dikdörtgenle belirleyin.
-4. **Verileri Görüntüleyin**: Arayüzdeki alanları seçip doluluk oranlarını inceleyin ve detaylı grafikleri görüntüleyin.
+3. **İzlenecek Alanı Çizin**: Her tesis için izlenecek alanı dikdörtgen içine alıp belirleyin ve sonrasında enter tuşuna basınız.
