@@ -74,3 +74,5 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 * #### Önemli Not: Windows işletim sistemi için apsiyon_windows.py, macos işletim sistemi için apsiyon_macos.py dosyasını kullanınız.
 
 * **Not**: Model yüklendikten sonra ilk çalıştırdığınızda modelin büyüklüğünden ötürü ilk seferde çalışmayabilir bu yüzden programı sonlandırıp tekrardan çalıştırmak gerekebilir.
+
+* **Not**: Bu yazılımda kullandığımız video_01.mp4 videosu, geliştirdiğimiz insan tanıma algoritmasının başarılı çalıştığını göstermesi açısından hareketli insan görüntüleri içeren bir öörnek videodur.
