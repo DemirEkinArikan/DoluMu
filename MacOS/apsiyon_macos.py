@@ -22,9 +22,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 process_videos()
 
 videos = {
-    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start': 8, 'end': 20, "icon": "Files/pool.png"},
-    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start': 9, 'end': 21, "icon": "Files/basketball.png"},
-    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4, "start": 10, "end": 23, "icon": "Files/tennis_racket.png"},
+    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start': 12, 'end': 20, "icon": "pool.png"},
+    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start': 12, 'end': 21, "icon": "basketball.png"},
+    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4, "start": 12, "end": 23, "icon": "tennis_racket.png"},
 }
 
 hourly_data = {}
@@ -80,7 +80,7 @@ class Apsiyon(QWidget):
 
             self.buttons_layout.addWidget(button_frame)
 
-        self.logo = QPixmap("Files/apsiyon.webp").scaled(650, 450, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.logo = QPixmap("apsiyon.webp").scaled(650, 450, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.logo_label = QLabel(self)
         self.logo_label.setPixmap(self.logo)
         self.layout.addWidget(self.logo_label, alignment=Qt.AlignCenter)
