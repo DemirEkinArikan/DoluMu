@@ -16,9 +16,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 process_videos()
 
 videos = {
-    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start':8,'end': 20,"icon":"Files/pool.png"},
-    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start':6,'end': 23,"icon":"Files/basketball.png"},
-    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4,"start":6 , "end":24,"icon":"Files/tennis_racket.png" },
+    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start':12,'end': 20,"icon":"Files/pool.png"},
+    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start':12,'end': 23,"icon":"Files/basketball.png"},
+    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4,"start":6 , "end":18,"icon":"Files/tennis_racket.png" },
 }
 
 hourly_data = {}
