@@ -53,7 +53,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
    ```bash
     pip install backports.tarfile
     ```
-* **MACOS İşletim Sistemi**:
+#### MACOS İşletim Sistemi:
 * Eğer macos işletim sistemi kullanıyorsanız ek olarak bu modülü yükleyiniz:
 * ```bash
     pip install PySide6
