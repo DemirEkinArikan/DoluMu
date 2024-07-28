@@ -75,4 +75,4 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 
 * **Not**: Model yüklendikten sonra ilk çalıştırdığınızda modelin büyüklüğünden ötürü ilk seferde çalışmayabilir bu yüzden programı sonlandırıp tekrardan çalıştırmak gerekebilir.
 
-* **Not**: Bu yazılımda kullandığımız video_01.mp4 videosu, geliştirdiğimiz insan tanıma algoritmasının başarılı çalıştığını göstermesi açısından hareketli insan görüntüleri içeren bir öörnek videodur.
+* **Not**: Bu yazılımda kullandığımız video_01.mp4 videosu, geliştirdiğimiz insan tanıma algoritmasının başarılı çalıştığını göstermesi açısından hareketli insan görüntüleri içeren bir örnek videodur.
