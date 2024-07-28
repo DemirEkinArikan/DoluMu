@@ -189,7 +189,6 @@ class Apsiyon:
 root = tk.Tk()
 time = datetime.now()
 time_index = int(str(time)[11:13])
-print(time_index)
 
 app = Apsiyon(root,time_index)
 root.mainloop()
