@@ -21,7 +21,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 
 #### Kurulum
 
-1. **Depoyu Klonlayın**:
+1. **Repositoryi Klonlayın**:
     ```bash
     git clone https://github.com/DemirEkinArikan/DoluMu.git
     cd DoluMu
