@@ -16,9 +16,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 process_videos()
 
 videos = {
-    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start':8,'end': 20,"icon":"pool.png"},
-    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start':6,'end': 23,"icon":"basketball.png"},
-    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4,"start":6 , "end":24,"icon":"tennis_racket.png" },
+    'Yüzme Havuzu': {'path': 'Files/video_01.mp4', 'capacity': 25, 'start':8,'end': 20,"icon":"pool.png"},
+    'Basketbol Sahası': {'path': 'Files/video_01.mp4', 'capacity': 10, 'start':6,'end': 23,"icon":"basketball.png"},
+    'Tenis kortu': {'path': 'Files/video_01.mp4', 'capacity': 4,"start":6 , "end":24,"icon":"tennis_racket.png" },
 }
 
 hourly_data = {}
@@ -70,7 +70,7 @@ class Apsiyon:
 
         # Update with your logo path
         self.logo = ImageTk.PhotoImage(
-            Image.open("apsiyon.webp").resize((650,450), Image.LANCZOS))  # Resize to fit better
+            Image.open("Files/apsiyon.webp").resize((650,450), Image.LANCZOS))  # Resize to fit better
         self.logo_label = ttk.Label(root, image=self.logo)
         self.logo_label.pack(pady=(50, 50))  # Adjust the padding as needed
         self.logo_label.pack(anchor=tk.CENTER)
