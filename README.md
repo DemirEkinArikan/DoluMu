@@ -45,7 +45,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
    ```bash
     pip install pillow
     ```
-* **Tkinter, json and datetime libraries are built-in in python so they do not require separate installation.**
+* **Tkinter, json and datetime kütüphaneleri pythonda hazır olarak bulunmaktadır ekstra kurulum gerektirmez.**
 
 #### Kullanım
 
