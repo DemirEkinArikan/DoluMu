@@ -38,11 +38,11 @@ pip install torch torchvision torchaudio
 """
 
 #### Kullanım:
-**Video Dosyalarını Hazırla**: İzlenecek video dosyalarının doğru şekilde kodda tanımlandığından emin olun.
-**Uygulamayı Çalıştır**: Uygulamayı başlatın:
+* **Video Dosyalarını Hazırla**: İzlenecek video dosyalarının doğru şekilde kodda tanımlandığından emin olun.
+* **Uygulamayı Çalıştır**: Uygulamayı başlatın:
 """
 Copy code
 python app.py
 """
-**İzlenecek Alanı Çiz**: Her video için izlenecek alanı dikdörtgenle belirleyin.
-**Verileri Görüntüle**: Arayüzdeki alanları seçip doluluk oranlarını inceleyin ve detaylı grafikleri görüntüleyin.
+* **İzlenecek Alanı Çiz**: Her video için izlenecek alanı dikdörtgenle belirleyin.
+* **Verileri Görüntüle**: Arayüzdeki alanları seçip doluluk oranlarını inceleyin ve detaylı grafikleri görüntüleyin.
