@@ -50,7 +50,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
    ```bash
     pip install pandas
     ```
-8. **backports yükleyin**:
+8. **tarfile dosyasını yükleyin**:
    ```bash
     pip install backports.tarfile
     ```
@@ -62,7 +62,6 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 * ```bash
     pip install PySide6
     ```
-
 #### Kullanım
 
 1. **Video Dosyalarını Hazırlayın**: İzlenecek video dosyalarının doğru şekilde kodda tanımlandığından emin olun.
@@ -71,5 +70,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
     python Apsiyon/Apsiyon.py
     ```
 3. **İzlenecek Alanı Çizin**: Her tesis için izlenecek alanı dikdörtgen içine alıp belirleyin ve sonrasında enter tuşuna basınız.
+
+## Önemli Not: Windows işletim sistemi için apsiyon_windows.py, macos işletim sistemi için apsiyon_macos.py dosyasını kullanınız.
 
 * **Not**: Model yüklendikten sonra ilk çalıştırdığınızda modelin büyüklüğünden ötürü ilk seferde çalışmayabilir bu yüzden programı sonlandırıp tekrardan çalıştırmak gerekebilir.
