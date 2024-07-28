@@ -45,6 +45,10 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
    ```bash
     pip install pillow
     ```
+7. **pandas yükleyin**:
+   ```bash
+    pip install pandas
+    ``` 
 * **Tkinter, json and datetime kütüphaneleri pythonda hazır olarak bulunmaktadır ekstra kurulum gerektirmez.**
 
 #### Kullanım
