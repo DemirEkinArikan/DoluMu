@@ -17,3 +17,32 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 * **OpenCV**: Görüntü işleme ve video analizi için kullanıldı.
 * **Tkinter**: Kullanıcı arayüzü oluşturmak için kullanılan GUI kütüphanesi.
 * **Matplotlib**: Grafik ve veri görselleştirme için kullanıldı.
+
+#### Kurulum
+Depoyu Klonla:
+"""
+Copy code
+git clone https://github.com/your-repo/crowd-monitoring-system.git
+cd crowd-monitoring-system
+"""
+##### Bağımlılıkları Yükle:
+##### Python 3.x ve gerekli paketleri yükleyin:
+"""
+Copy code
+pip install -r requirements.txt
+"""
+##### YOLOv5 Modelini Kur:
+"""
+Copy code
+pip install torch torchvision torchaudio
+"""
+
+#### Kullanım:
+**Video Dosyalarını Hazırla**: İzlenecek video dosyalarının doğru şekilde kodda tanımlandığından emin olun.
+**Uygulamayı Çalıştır**: Uygulamayı başlatın:
+"""
+Copy code
+python app.py
+"""
+**İzlenecek Alanı Çiz**: Her video için izlenecek alanı dikdörtgenle belirleyin.
+**Verileri Görüntüle**: Arayüzdeki alanları seçip doluluk oranlarını inceleyin ve detaylı grafikleri görüntüleyin.
