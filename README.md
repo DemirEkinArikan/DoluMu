@@ -25,17 +25,27 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
     git clone https://github.com/your-repo/crowd-monitoring-system.git
     cd crowd-monitoring-system
     ```
-
-2. **Bağımlılıkları Yükleyin**:
-    Python 3.x ve gerekli paketleri kurun:
+2. **PyTorch Yükleyin**:
+   ```bash
+    pip install torch
+    ``` 
+3. **OpenCV Yükleyin**:
     ```bash
-    pip install -r requirements.txt
+    pip install opencv-python
     ```
-
-3. **YOLOv5 Modelini Kurun**:
-    ```bash
-    pip install torch torchvision torchaudio
+4. **numpy yükleyin**:
+   ```bash
+    pip install numpy
     ```
+5. **matplotlib yükleyin**:
+   ```bash
+    pip install matplotlib
+    ```
+6. **pillow yükleyin**:
+   ```bash
+    pip install pillow
+    ```
+* **Tkinter, json and datetime libraries are built-in in python so they do not require separate installation.**
 
 #### Kullanım
 
