@@ -6,9 +6,9 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 videos = {
-    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start': 8, 'end': 20, "icon": "Files/pool.png"},
-    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start': 9, 'end': 21, "icon": "Files/basketball.png"},
-    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4, "start": 10, "end": 23, "icon": "Files/tennis_racket.png"},
+    'Yüzme Havuzu': {'path': 'video_01.mp4', 'capacity': 25, 'start': 12, 'end': 20, "icon": "pool.png"},
+    'Basketbol Sahası': {'path': 'video_01.mp4', 'capacity': 10, 'start': 12, 'end': 21, "icon": "basketball.png"},
+    'Tenis kortu': {'path': 'video_01.mp4', 'capacity': 4, "start": 12, "end": 23, "icon": "tennis_racket.png"},
 }
 
 def process_videos():
