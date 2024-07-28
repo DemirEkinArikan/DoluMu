@@ -48,7 +48,12 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 7. **pandas yükleyin**:
    ```bash
     pip install pandas
-    ``` 
+    ```
+8. **backports yükleyin**:
+   ```bash
+    pip install backports.tarfile
+    ```
+
 * **Tkinter, json and datetime kütüphaneleri pythonda hazır olarak bulunmaktadır ekstra kurulum gerektirmez.**
 
 #### Kullanım
@@ -59,3 +64,5 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
     python apsiyon.py
     ```
 3. **İzlenecek Alanı Çizin**: Her tesis için izlenecek alanı dikdörtgen içine alıp belirleyin ve sonrasında enter tuşuna basınız.
+
+* **Not**: Model yüklendikten sonra ilk çalıştırdığınızda modelin büyüklüğünden ötürü ilk seferde çalışmayabilir bu yüzden programı sonlandırıp tekrardan çalıştırmak gerekebilir.
