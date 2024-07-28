@@ -72,7 +72,7 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
     ```
 3. **İzlenecek Alanı Çizin**: Her tesis için izlenecek alanı dikdörtgen içine alıp belirleyin ve sonrasında enter tuşuna basınız.
 
-* #### Önemli Not: Windows işletim sistemi için Windows, macos işletim sistemi için MacOs dosyasını kullanınız.
+* #### Önemli Not: Windows işletim sistemi için Windows dosyası içindeki apsiyon_windows.py, macos işletim sistemi için MacOs dosyasındaki apsiyon_macos.py dosyasını kullanınız.
 
 * **Not**: Model yüklendikten sonra ilk çalıştırdığınızda modelin büyüklüğünden ötürü ilk seferde çalışmayabilir bu yüzden programı sonlandırıp tekrardan çalıştırmak gerekebilir.
 
