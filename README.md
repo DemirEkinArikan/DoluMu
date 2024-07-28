@@ -65,10 +65,15 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 #### Kullanım
 
 1. **Video Dosyalarını Hazırlayın**: İzlenecek video dosyalarının doğru şekilde kodda tanımlandığından emin olun.
-2. **Uygulamayı Çalıştırın**: Uygulamayı başlatın:
+2. **Uygulamayı Çalıştırın**:
+   * Uygulamayı başlatın (Windows için):
     ```bash
-    python Apsiyon/Apsiyon.py
+    python Apsiyon/apsiyon_windows.py
     ```
+   * Uygulamayı başlatın (Macos için):
+     '''bash
+     python Apsiyon/apsiyon_macos.py
+     '''
 3. **İzlenecek Alanı Çizin**: Her tesis için izlenecek alanı dikdörtgen içine alıp belirleyin ve sonrasında enter tuşuna basınız.
 
 * #### Önemli Not: Windows işletim sistemi için apsiyon_windows.py, macos işletim sistemi için apsiyon_macos.py dosyasını kullanınız.
