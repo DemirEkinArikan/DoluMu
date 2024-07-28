@@ -22,8 +22,8 @@ Bu proje, video görüntüleri kullanarak belirli alanlardaki insan yoğunluğun
 
 1. **Depoyu Klonlayın**:
     ```bash
-    git clone https://github.com/your-repo/crowd-monitoring-system.git
-    cd crowd-monitoring-system
+    git clone https://github.com/DemirEkinArikan/DoluMu.git
+    cd DoluMu
     ```
 2. **PyTorch Yükleyin**:
    ```bash
